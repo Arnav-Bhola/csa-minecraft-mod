@@ -27,7 +27,9 @@ minecraft {
             systemProperty 'forge.enabledGameTestNamespaces', 'examplemod'
         }
 
-        register('client')
+        register('client') {
+            jvmArgs '-XstartOnFirstThread'
+        }
 
         register('server') {
             args '--nogui'
