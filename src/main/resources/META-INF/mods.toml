@@ -9,9 +9,9 @@ license="All Rights Reserved"
 #clientSideOnly=true #optional, default=false
 
 [[mods]]
-modId="examplemod"
+modId="csa_custom_boss_mod"
 version="1.0.0"
-displayName="Example Mod"
+displayName="CSA Custom Boss Mod"
 #updateJSONURL="https://example.com/updates.json" #optional
 #displayURL="https://example.com/" #optional
 #logoFile="examplemod.png" #optional
@@ -19,17 +19,17 @@ displayName="Example Mod"
 authors="YourNameHere, OtherNameHere" #optional
 #displayTest="MATCH_VERSION" #optional, default=MATCH_VERSION when not clientSideOnly, else IGNORE_ALL_VERSION
 
-description='''Example mod description.
-Newline characters can be used like this, and rendered on the mods screen properly.'''
+description='''This is a mod that adds a custom boss to the game with a structure, and some new items.
+Created as a final project for our AP CSA class.'''
 
-[[dependencies.examplemod]] #recommended
+[[dependencies.csa_custom_boss_mod]] #recommended
     modId="forge"
     mandatory=true
     versionRange="[64,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.examplemod]] #recommended
+[[dependencies.csa_custom_boss_mod]] #recommended
     modId="minecraft"
     mandatory=true
     versionRange="[26.1.2,26.2,)"
