@@ -3,7 +3,7 @@
 # References: https://github.com/MinecraftForge/MDKExamples
 
 modLoader="javafml"
-loaderVersion="[64,)"
+loaderVersion="[47,)"
 license="All Rights Reserved"
 #issueTrackerURL="https://github.com/MyOrganization/MyMod/" #optional
 #clientSideOnly=true #optional, default=false
@@ -25,13 +25,13 @@ Created as a final project for our AP CSA class.'''
 [[dependencies.csa_custom_boss_mod]] #recommended
     modId="forge"
     mandatory=true
-    versionRange="[64,)"
+    versionRange="[47,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.csa_custom_boss_mod]] #recommended
     modId="minecraft"
     mandatory=true
-    versionRange="[26.1.2,26.2,)"
+    versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
