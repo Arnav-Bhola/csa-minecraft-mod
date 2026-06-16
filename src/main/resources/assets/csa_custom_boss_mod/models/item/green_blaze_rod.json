@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "csa_custom_boss_mod:item/green_blaze_rod"
+  }
+}

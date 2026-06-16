@@ -1,3 +1,5 @@
 {
-  "item.csa_custom_boss_mod.minecoin": "Minecoin"
+  "item.csa_custom_boss_mod.minecoin": "Minecoin",
+  "entity.csa_custom_boss_mod.custom_boss": "The Villain"
+  
 }

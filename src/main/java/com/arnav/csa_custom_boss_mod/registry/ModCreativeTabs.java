@@ -1,6 +1,7 @@
 package com.arnav.csa_custom_boss_mod.registry;
 
 import com.arnav.csa_custom_boss_mod.CSACustomBossMod;
+
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

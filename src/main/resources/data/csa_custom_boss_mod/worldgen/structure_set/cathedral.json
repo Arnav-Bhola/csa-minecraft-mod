@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "csa_custom_boss_mod:cathedral",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 8,
+    "salt": 918273645
+  }
+}

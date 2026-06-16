@@ -13,7 +13,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
         DeferredRegister.create(ForgeRegistries.ITEMS, CSACustomBossMod.MODID);
 
-   public static final RegistryObject<Item> CUSTOM_BOSS_DROPLET =
-    ITEMS.register("minecoin", CustomBossDroplet::new);
+    public static final RegistryObject<Item> GREEN_BLAZE_ROD =
+        ITEMS.register("green_blaze_rod", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CUSTOM_BOSS_DROPLET =
+        ITEMS.register("minecoin", CustomBossDroplet::new);
 }
 

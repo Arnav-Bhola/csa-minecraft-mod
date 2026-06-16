@@ -1,0 +1,15 @@
+{
+  "name": "csa_custom_boss_mod:cathedral/lu",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "csa_custom_boss_mod:cathedrallu",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}
